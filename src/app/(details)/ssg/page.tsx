@@ -19,9 +19,6 @@ export default async function page() {
     return (
         <div>
             <h1 className='text-xl font-bold'>SSG Page</h1>
-            <ul>
-                <li>요청의 결과를 무조건 캐싱함</li>
-            </ul>
             <div className='grid grid-flow-row grid-cols-4 mt-10 px-5 gap-10'>
                 {
                     results.map((movie) => (
